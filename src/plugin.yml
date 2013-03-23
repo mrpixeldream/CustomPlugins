@@ -1,0 +1,15 @@
+name: CustomPlugins
+author: MrPixelDream
+version: 1.0
+description: Replaces the default message for /plugins with your customized one
+main: de.mrpixeldream.bukkit.customplugins.CustomPlugins
+commands:
+    pl:
+        usage: /pl
+        description: Shows the plugin list
+    plugins:
+        usage: /plugins
+        description: Shows the plugin list
+permissions:
+    customplugins.*:
+        default: op
