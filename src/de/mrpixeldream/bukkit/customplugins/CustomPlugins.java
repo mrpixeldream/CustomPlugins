@@ -9,6 +9,8 @@ public class CustomPlugins extends JavaPlugin
 {
 	private final String CONSOLE = "[CustomPlugins] ";
 	
+	// Thanks for using my plugin!
+	
 	@Override
 	public void onEnable()
 	{
