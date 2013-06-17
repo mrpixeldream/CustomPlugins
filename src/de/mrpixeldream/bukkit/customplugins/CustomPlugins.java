@@ -18,7 +18,7 @@ public class CustomPlugins extends JavaPlugin
 		
 		loadConfig();
 		
-		this.getServer().getPluginManager().registerEvents(new CommandOverride(this.getConfig().getString("Plugin-Message")), this);
+		this.getServer().getPluginManager().registerEvents(new CommandOverride(this.getConfig().getString("Plugin-Message").replaceAll("&", "§")), this);
 		
 		System.out.println(CONSOLE + "Successfully set new /plugins command!");
 	}
